@@ -1,0 +1,86 @@
+/* Center the container on the screen, slightly lower with background image */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    background: url('galaxy-background.png') no-repeat center center fixed; /* Add background image */
+    background-size: cover; /* Make sure it covers the whole screen */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6); /* See-through background */
+    border: 2px solid #1d1a78; /* Deep blue border */
+    border-radius: 10px; /* Rounded corners */
+    margin-top: 20vh; /* Moves container lower on the screen */
+    box-shadow: 0px 0px 20px 5px rgba(29, 26, 120, 0.8); /* Glowing outline for container */
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+#timer-container {
+    font-size: 3rem; /* Base font size for the timer container */
+    color: #b0e0e6; /* Light blue color for the timer container background */
+    margin-bottom: 20px;
+}
+
+#time-display {
+    color: white; /* White for the time numbers */
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+#time-display span {
+    font-size: 3.5rem; /* Smaller font size for hr, min, sec, ms labels */
+    color: #add8e6; /* Light blue for time units */
+    margin-left: 5px; /* Adds a little spacing next to each unit */
+}
+
+#time-display .time-number {
+    font-size: 6rem; /* Larger font size for the time numbers */
+    color: white;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 20px; /* More curved buttons */
+    background-color: #2b2bff; /* Dark blue shade for buttons */
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Hover effect transition */
+    box-shadow: 0px 0px 15px rgba(64, 64, 255, 0.6); /* Subtle default glow effect */
+}
+
+button:hover {
+    background-color: #4040ff; /* Lighter blue on hover */
+    box-shadow: 0px 0px 25px rgba(64, 64, 255, 0.8); /* Brighter glowing effect */
+    transform: scale(1.140); /* Slightly enlarge button on hover */
+}
+
+h2 {
+    color: #fff;
+    margin-top: 20px;
+}
+
+#lap-list {
+    color: #ddd;
+    list-style-type: none;
+    padding: 0;
+}

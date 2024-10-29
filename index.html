@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Galaxy Stopwatch</title>
+</head>
+<body>
+    <div class="container">
+        <div id="timer-container">
+            <span id="time-display">
+                <span id="hours">00</span><small> hr </small>: 
+                <span id="minutes">00</span><small> min </small>: 
+                <span id="seconds">00</span><small> sec </small>: 
+                <span id="milliseconds">00</span><small> ms </small>
+            </span>
+        </div>
+        <div class="button-container">
+            <button id="start-button">Start</button>
+            <button id="pause-button">Pause</button>
+            <button id="resume-button">Resume</button>
+            <button id="reset-button">Reset</button>
+            <button id="lap-button">Lap</button>
+        </div>
+        <h2>Lap Timings</h2>
+        <ul id="lap-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
