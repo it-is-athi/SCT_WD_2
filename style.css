@@ -16,10 +16,10 @@ body {
     align-items: center;
     text-align: center;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.6); /* See-through background */
-    border: 2px solid #1d1a78; /* Deep blue border */
-    border-radius: 10px; /* Rounded corners */
-    margin-top: 20vh; /* Moves container lower on the screen */
+    background: rgba(0, 0, 0, 0.6);
+    border: 2px solid #1d1a78; 
+    border-radius: 10px; 
+    margin-top: 20vh; 
     box-shadow: 0px 0px 20px 5px rgba(29, 26, 120, 0.8); /* Glowing outline for container */
 }
 
